@@ -7,7 +7,6 @@ import Services from './components/Services';
 import Vision from './components/Vision';
 import Mission from './components/Misission';
 import Footer from './components/Footer';
-import Contact from './components/ContactUs';
 import ContactUs from './components/ContactUs';
 
 function App() {
