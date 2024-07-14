@@ -1,0 +1,58 @@
+.slider-container {
+  width: 80%;
+  margin: 50px auto;
+  position: relative;
+
+  padding: 10px; /* Add padding to give some space between the border and content */
+  background-color: #f9f9f9; /* Add a background color for better visibility */
+}
+
+.slick-slide img {
+  width: 100%;
+  max-height: 525px; /* Set a maximum height */
+  object-fit: cover; /* Ensure the image covers the area without distorting */
+  border-radius: 20px;
+  border: 2px solid #4B70F5; /* Add a border to the images */
+}
+
+.slide {
+  position: relative;
+}
+
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #4B70F5; /* Add a border to the slide content */
+}
+
+.slide-content h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.slide-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.slide-content button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4B70F5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slide-content button:hover {
+  background-color: #333;
+}

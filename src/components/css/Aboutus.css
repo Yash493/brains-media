@@ -1,0 +1,97 @@
+.about-us-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh; 
+}
+
+.about-us-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.about-us-content h4 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about-us-content h1 {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.learn-more-button {
+  background-color: #4B70F5;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sign-up-button:hover {
+  background-color: #3A56D5;
+}
+
+.about-us-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 500px; 
+}
+
+.about-us-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+  .about-us-container {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+
+  .about-us-image {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us-content h1 {
+    font-size: 2.5em;
+  }
+
+  .about-us-content p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us-content h1 {
+    font-size: 2em;
+  }
+
+  .about-us-content p {
+    font-size: 0.9em;
+  }
+}
